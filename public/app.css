@@ -421,9 +421,12 @@ template {
 }
 .navbar__logo {
   margin-right: 2.5rem;
+  color: #fff;
 }
 .navbar__toggle {
   margin-left: auto;
+  color: #fff;
+  border-color: #fff;
 }
 .app-logo {
   font-weight: 700;
@@ -435,6 +438,9 @@ template {
 }
 .navbar-list__item--last {
   margin-right: 0;
+}
+.navbar-list__link {
+  color: #fff;
 }
 .navbar-list__link:hover {
   text-decoration: line-through;
