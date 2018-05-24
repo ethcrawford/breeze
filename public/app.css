@@ -438,6 +438,9 @@ template {
   font-weight: 700;
   font-size: 1.5rem;
 }
+.navbar-list {
+  margin-left: auto;
+}
 .navbar-list__item {
   margin-right: 1.875rem;
 }
@@ -559,6 +562,9 @@ template {
   display: none;
 }
 @media (min-width: 992px) {
+  .navbar__toggle--responsive {
+    display: none;
+  }
   .navbar__list--responsive {
     display: inherit;
   }
