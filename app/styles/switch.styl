@@ -16,6 +16,27 @@
         background-color: white_color
         box-shadow: 0 rem(1px) rem(10px) rgba(0, 0, 0, .15)
 
+        .navbar-list
+          &__link
+            &--current
+              color: base_color
+
+            &:hover,
+            &:focus
+              color: base_color
+
+        .navbar
+          &__logo
+            color: base_color
+
+          &__toggle
+            color: base_color
+            border-color: base_color
+
+            &:hover,
+            &:focus
+              color: white_color
+
 
   +composer(switch__slide-out-menu-open)
     .slide-out-menu

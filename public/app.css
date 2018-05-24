@@ -457,7 +457,8 @@ template {
 .navbar-list__link--current {
   color: #fff;
 }
-.navbar-list__link:hover {
+.navbar-list__link:hover,
+.navbar-list__link:focus {
   color: #fff;
 }
 .slide-out-menu {
@@ -551,6 +552,24 @@ template {
   background-color: #fff;
   -webkit-box-shadow: 0 0.062rem 0.625rem rgba(0,0,0,0.15);
           box-shadow: 0 0.062rem 0.625rem rgba(0,0,0,0.15);
+}
+.page-header--active .navbar-list__link--current {
+  color: #26272d;
+}
+.page-header--active .navbar-list__link:hover,
+.page-header--active .navbar-list__link:focus {
+  color: #26272d;
+}
+.page-header--active .navbar__logo {
+  color: #26272d;
+}
+.page-header--active .navbar__toggle {
+  color: #26272d;
+  border-color: #26272d;
+}
+.page-header--active .navbar__toggle:hover,
+.page-header--active .navbar__toggle:focus {
+  color: #fff;
 }
 .slide-out-menu--open {
   left: 0;
