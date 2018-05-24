@@ -496,6 +496,26 @@ template {
 .menu-list__link:hover {
   text-decoration: line-through;
 }
+.home__bg,
+.home__bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home__bg {
+  background-image: url("images/home-bg.png");
+  background-position: center top;
+  background-repeat: repeat;
+  background-size: cover;
+  z-index: -20;
+}
+.home__bg-overlay {
+  background-color: #000;
+  opacity: 0.502;
+  z-index: -10;
+}
 @media (min-width: 992px) {
   .slide-out-menu {
     left: -23.75rem;
