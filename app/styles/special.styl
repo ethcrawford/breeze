@@ -29,18 +29,23 @@
       &__logo
         margin-right: rem(40px)
         color: white_color
+        text-transform: uppercase
+        letter-spacing: tracking(50)
 
       &__toggle
         margin-left: auto
         color: white_color
+        text-transform: uppercase
+        font-size: rem(14px)
+        font-weight: 700
         border-color: white_color
+        letter-spacing: tracking(50)
 
 
   +composer(special__app-logo)
     .app-logo
       font-weight: 700
       font-size: rem(24px)
-      text-decoration: line-through
 
 
   +composer(special__navbar-list)
@@ -53,10 +58,17 @@
           margin-right: 0
 
       &__link
-        color: white_color
+        color: navbar__link-color
+        text-transform: uppercase
+        font-weight: 700
+        font-size: rem(14px)
+        letter-spacing: tracking(50)
+
+        &--current
+          color: white_color
 
         &:hover
-          text-decoration: line-through
+          color: white_color
 
 
   +composer(special__slide-out-menu)

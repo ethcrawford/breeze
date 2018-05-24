@@ -422,16 +422,21 @@ template {
 .navbar__logo {
   margin-right: 2.5rem;
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 .navbar__toggle {
   margin-left: auto;
   color: #fff;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
   border-color: #fff;
+  letter-spacing: 0.05em;
 }
 .app-logo {
   font-weight: 700;
   font-size: 1.5rem;
-  text-decoration: line-through;
 }
 .navbar-list__item {
   margin-right: 1.875rem;
@@ -440,10 +445,17 @@ template {
   margin-right: 0;
 }
 .navbar-list__link {
+  color: #a09f9f;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+.navbar-list__link--current {
   color: #fff;
 }
 .navbar-list__link:hover {
-  text-decoration: line-through;
+  color: #fff;
 }
 .slide-out-menu {
   position: fixed;
