@@ -180,6 +180,55 @@
         sprite-height(sprite-marker)
 
   .home
+    padding-top: rem(362px)
+    padding-bottom: rem(362px)
+
+    &__heading
+      margin-bottom: rem(26px)
+      font-weight: 700
+      color: white_color
+      text-transform: uppercase
+      font-size: rem(48px)
+
+    &__subtitle
+      margin-bottom: rem(32px)
+      font-size: rem(22px)
+      color: white_color
+
+    &__text
+      line-height: 1.625
+      color: white_color
+      margin-bottom: rem(40px)
+
+    &__button-container
+      justify-content: center
+
+    &__button
+      font-weight: 700
+      color: white_color
+      text-transform: uppercase
+      border rem(2px) white_color solid
+      border-radius: 50px
+
+      &--learn
+        padding: rem(16px) rem(66px)
+        margin-right: rem(20px)
+
+        &:hover,
+        &:focus
+          background-color: white_color
+          color: base_color
+
+      &--download
+        padding: rem(16px) rem(53px)
+        border-color: base_accent
+        background-color: base_accent
+
+        &:hover,
+        &:focus
+          background-color: base_accent-hover
+          border-color: base_accent-hover
+
     &__bg,
     &__bg-overlay
       position: absolute
