@@ -1,0 +1,35 @@
+@import 'variables/_colors.styl'
+@import 'variables/_sizes.styl'
+@import 'variables/_parameters.styl'
+@import 'variables/_initiator.styl'
+
+@import 'mixins/_rem.styl'
+@import 'mixins/_media.styl'
+@import 'mixins/_composer.styl'
+
++composer(initiator__default)
+
+  +composer(default__section-base)
+    .section-base
+      position: relative
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      overflow: hidden
+
+
+  +composer(default__example-button)
+    .example-button
+      padding: rem(8px) rem(15px)
+      border: rem(1px) base_color solid
+      &:hover,
+      &:focus
+        background-color: base_color
+        color: white_color
+
+
+  +composer(default__line)
+    .line
+      display: flex
+      align-items: center

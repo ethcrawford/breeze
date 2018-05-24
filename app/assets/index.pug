@@ -1,0 +1,135 @@
+extends _base.pug
+
+block description
+  meta(
+    name='description'
+    content='Brunch application'
+  )
+
+block keywords
+  meta(
+    name='keywords'
+    content='brunch, skeleton, boilerplate, static-site'
+  )
+
+block author
+  meta(
+    name='author'
+    content='Ethcrawford'
+  )
+
+block title
+  title
+    | Brunch
+
+block main
+  h1.heading-clear.visually-hidden
+    | Brunch
+
+  header.page-header
+    .container
+
+      .line.navbar
+        a.link-clear.app-logo.navbar__logo(
+          href='index.html'
+        )
+          | Brunch
+
+        ul.list-clear.line.navbar-list.navbar__list.navbar__list--responsive
+          li.navbar-list__item
+            a.link-clear.navbar-list__link.smooth-scroll(
+              href='#home'
+            )
+              | Home
+
+          li.navbar-list__item
+            a.link-clear.navbar-list__link.smooth-scroll(
+              href='#about-us'
+            )
+              | About Us
+
+          li.navbar-list__item
+            a.link-clear.navbar-list__link.smooth-scroll(
+              href='#portfolio'
+            )
+              | Portfolio
+
+          li.navbar-list__item
+            a.link-clear.navbar-list__link.smooth-scroll(
+              href='#services'
+            )
+              | Services
+
+          li.navbar-list__item.navbar-list__item--last
+            a.link-clear.navbar-list__link.smooth-scroll(
+              href='#contact'
+            )
+              | Contact
+
+        button.button-clear.example-button.navbar__toggle.navbar__toggle--responsive.slide-out-menu-toggle(
+          type='button'
+        )
+          | Menu
+
+  .slide-out-menu-container
+    nav.menu.slide-out-menu
+      header.line.menu__header
+        h2.heading-clear.menu__heading
+          | Navigation
+
+        button.button-clear.example-button.menu__button.menu__toggle.slide-out-menu__toggle
+          | Close
+
+      ul.list-clear.menu-list
+        li.menu-list__item
+          a.link-clear.menu-list__link.smooth-scroll(
+            href='#home'
+          )
+            | Home
+
+        li.menu-list__item
+          a.link-clear.menu-list__link.smooth-scroll(
+            href='#about-us'
+          )
+            | About Us
+
+        li.menu-list__item
+          a.link-clear.menu-list__link.smooth-scroll(
+            href='#portfolio'
+          )
+            | Portfolio
+
+        li.menu-list__item
+          a.link-clear.menu-list__link.smooth-scroll(
+            href='#services'
+          )
+            | Services
+
+        li.menu-list__item.menu-list__item--last
+          a.link-clear.menu-list__link.smooth-scroll(
+            href='#contact'
+          )
+            | Contact
+
+    .slide-out-menu-overlay
+
+  main.main
+    section#example.section-base.example.text-align-center
+      .container
+
+        .row
+          .col-lg-8.offset-lg-2
+            h2.heading-clear.example__heading
+              | Example Heading
+
+            p.text-clear.example__subtitle
+              | Lorem ipsum dolor
+
+            p.text-clear.example__text
+              | Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.
+
+  footer.page-footer
+    .container
+
+      p.text-clear.copyright-text
+        small &copy; Ethcrawford 2018

@@ -1,0 +1,216 @@
+@import 'variables/_colors.styl'
+@import 'variables/_sizes.styl'
+@import 'variables/_parameters.styl'
+@import 'variables/_initiator.styl'
+
+@import 'mixins/_rem.styl'
+@import 'mixins/_media.styl'
+@import 'mixins/_composer.styl'
+
++composer(initiator__animator)
+
+  +composer(animator__animated)
+    .animated
+      animation-duration: 1s
+      animation-fill-mode: both
+
+
+  +composer(animator__animated-infinite)
+    .animated.infinite
+      animation-iteration-count: infinite
+
+
+  +composer(animator__bounce)
+    .bounce
+      animation-name: bounce
+      transform-origin: center bottom
+
+
+  +composer(animator__flash)
+    .flash
+      animation-name: flash
+
+
+  +composer(animator__head-shake)
+    .headShake
+      animation-timing-function: ease-in-out
+      animation-name: headShake
+
+
+  +composer(animator__jello)
+    .jello
+      animation-name: jello
+      transform-origin: center
+
+
+  +composer(animator__pulse)
+    .pulse
+      animation-name: pulse
+
+
+  +composer(animator__rubber-band)
+    .rubberBand
+      animation-name: rubberBand
+
+
+  +composer(animator__shake)
+    .shake
+      animation-name: shake
+
+
+  +composer(animator__swing)
+    .swing
+      transform-origin: top center
+      animation-name: swing
+
+
+  +composer(animator__tada)
+    .tada
+      animation-name: tada
+
+
+  +composer(animator__wobble)
+    .wobble
+      animation-name: wobble
+
+
+  +composer(animator__bounce-in)
+    .bounceIn
+      animation-duration: 0.75s
+      animation-name: bounceIn
+
+
+  +composer(animator__bounce-in-down)
+    .bounceInDown
+      animation-name: bounceInDown
+
+
+  +composer(animator__bounce-in-left)
+    .bounceInLeft
+      animation-name: bounceInLeft
+
+
+  +composer(animator__bounce-in-right)
+    .bounceInRight
+      animation-name: bounceInRight
+
+
+  +composer(animator__bounce-in-up)
+    .bounceInUp
+      animation-name: bounceInUp
+
+
+  +composer(animator__bounce-out)
+    .bounceOut
+      animation-duration: 0.75s
+      animation-name: bounceOut
+
+
+  +composer(animator__bounce-out-down)
+    .bounceOutDown
+      animation-name: bounceOutDown
+
+
+  +composer(animator__bounce-out-left)
+    .bounceOutLeft
+      animation-name: bounceOutLeft
+
+
+  +composer(animator__bounce-out-right)
+    .bounceOutRight
+      animation-name: bounceOutRight
+
+
+  +composer(animator__bounce-out-up)
+    .bounceOutUp
+      animation-name: bounceOutUp
+
+
+  +composer(animator__fade-in)
+    .fadeIn
+      animation-name: fadeIn
+
+
+  +composer(animator__fade-in-down)
+    .fadeInDown
+      animation-name: fadeInDown
+
+
+  +composer(animator__fade-in-down-big)
+    .fadeInDownBig
+      animation-name: fadeInDownBig
+
+
+  +composer(animator__fade-in-left)
+    .fadeInLeft
+      animation-name: fadeInLeft
+
+
+  +composer(animator__fade-in-left-big)
+    .fadeInLeftBig
+      animation-name: fadeInLeftBig
+
+
+  +composer(animator__fade-in-right)
+    .fadeInRight
+      animation-name: fadeInRight
+
+
+  +composer(animator__fade-in-right-big)
+    .fadeInRightBig
+      animation-name: fadeInRightBig
+
+
+  +composer(animator__fade-in-up)
+    .fadeInUp
+      animation-name: fadeInUp
+
+
+  +composer(animator__fade-in-up-big)
+    .fadeInUpBig
+      animation-name: fadeInUpBig
+
+
+  +composer(animator__fade-out)
+    .fadeOut
+      animation-name: fadeOut
+
+
+  +composer(animator__fade-out-down)
+    .fadeOutDown
+      animation-name: fadeOutDown
+
+
+  +composer(animator__fade-out-down-big)
+    .fadeOutDownBig
+      animation-name: fadeOutDownBig
+
+
+  +composer(animator__fade-out-left)
+    .fadeOutLeft
+      animation-name: fadeOutLeft
+
+
+  +composer(animator__fade-out-left-big)
+    .fadeOutLeftBig
+      animation-name: fadeOutLeftBig
+
+
+  +composer(animator__fade-out-right)
+    .fadeOutRight
+      animation-name: fadeOutRight
+
+
+  +composer(animator__fade-out-right-big)
+    .fadeOutRightBig
+      animation-name: fadeOutRightBig
+
+
+  +composer(animator__fade-out-up)
+    .fadeOutUp
+      animation-name: fadeOutUp
+
+
+  +composer(animator__fade-out-up-big)
+    .fadeOutUpBig
+      animation-name: fadeOutUpBig
